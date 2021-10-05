@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    
 }
 
 body{
@@ -84,4 +85,54 @@ button:hover{
 #main-container header main .image{
     text-align: right;
     width: 700px;
+}
+
+/* ******************************************************** */
+
+
+.layout{
+    width: 1280px;
+    margin: 250px ;
+}
+
+.layout div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.layout h3{
+    font-size: 48px;
+    padding: 25px 0;
+}
+
+.layout p{
+    padding: 25px 0;
+    line-height: 32px;
+}
+
+.layout-left .text{
+     width: 500px;
+}
+
+.layout-left .image{
+    width: 770px;
+    text-align: center;
+}
+
+.layout-right .text{
+    width: 500px;
+
+}
+
+.layout-right .image{
+   width: 770px;
+   text-align: center;   
+}
+
+footer{
+    background-color: black;
+    padding: 150px 20px;
+    color: white;
+    text-align: center;
+    margin-right: 0;
 }
